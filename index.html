@@ -4,6 +4,17 @@
   <!-- If you'd like to support IE8 -->
   <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
   <script src='videojs.thumbnails.js'></script>
+  <script>
+    var vid = document.getElementById("vid");
+    vid.volume = 0.2;
+    
+    video.thumbnails({
+  0: {
+    src: 'http://imgur.com/a/Ay3nk',
+    width: '120px'
+  }
+});
+  </script>
   
   <style>
     body{
@@ -21,7 +32,7 @@
 </head>
 
 <body>
-  <audio controls autoplay>
+  <audio id="vid" controls autoplay>
   <source src="audio.mp3" type="audio/mpeg">
   </audio>
 <p style="background:gray;margin:5px;">bitcoin: 1MKtknUDY6P5cinAqUb9f5XNqxYiv3ptA9</p>
