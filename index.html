@@ -1,0 +1,118 @@
+<html>
+<head>
+  <link href="css/video-js.css" rel="stylesheet">
+
+  <script src="js/videojs.js"></script>
+
+  <style>
+	blockquote{
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		background-color: #E3F8FF;
+		border-radius:10px;
+		padding: 5px;
+		border: 1px solid gray;
+	  }
+    body{
+     background-image: url("img/bg.jpg");
+      background-repeat: repeat;
+    }
+    #HCB_comment_box{
+      background: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+      border: 2px solid black;
+      overflow-y: hidden;
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+    #logo{
+      position: fixed; /* or absolute */
+      top: 50%;
+      left: 50%;
+    }
+    #videobox{
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.4);
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 5px;
+      border: solid black 2px;
+      height: auto !important;
+      width: 58%;
+      overflow: auto;
+	text-align: center;
+	float: left;
+	position: relative;
+    }
+    #wrapper{
+    	width: 100%;
+    	height: auto;
+    }
+    #tabsbox{
+      background-color: rgba(255, 255, 255, 0.4);
+      border: solid black 2px;
+      width: 40%;
+	float: right;
+	position: relative;
+	height: auto !important;
+	margin: 0;
+	padding: 0;
+    }
+    .item{
+	display:inline-block;
+	margin: 10px;
+	width: auto;
+	height: 264px;
+	border: 10px solid transparent;
+	border-image: linear-gradient(to bottom, #72BDA3 0%, #5E8C61 100%);
+	border-image-slice: 1;
+	 -webkit-box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.75);
+	 -moz-box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.75);
+    }
+  </style>
+</head>
+
+<body>
+  <img id="logo" src="img/logo.png"></img>
+  <a style="background: white;" href="about.html">About us!</a>
+  <div id="wrapper">
+	 	<div id="videobox">
+		    <video controls class="video-js item" preload="auto" width="600" height="264" data-setup="{}">
+		      <source src="videos/video.mp4" type='video/mp4'>
+		    </video>
+		    <video controls class="video-js item" preload="auto" width="600" height="264" data-setup="{}">
+		      <source src="videos/monkey.mp4" type='video/mp4'>
+		    </video>
+		    <video controls class="video-js item" preload="auto" width="600" height="264" data-setup="{}">
+		      <source src="videos/angrygorilla.mp4" type='video/mp4'>
+		    </video>
+		    <video controls class="video-js item" preload="auto" width="600" height="264" data-setup="{}">
+		      <source src="videos/apefire.mp4" type='video/mp4'>
+		    </video>
+		    <video controls class="video-js item" preload="auto" width="600" height="264" data-setup="{}">
+		      <source src="videos/gorillaplay.mp4" type='video/mp4'>
+		    </video>
+		    <video controls class="video-js item" preload="auto" width="600" height="264" data-setup="{}">
+		      <source src="videos/gorillahappy.mp4" type='video/mp4'>
+		    </video>
+		    <video controls class="video-js item" preload="auto" width="600" height="264" data-setup="{}">
+		      <source src="videos/gorillaswagger.mp4" type='video/mp4'>
+		    </video>
+		    <video controls class="video-js item" preload="auto" width="600" height="264" data-setup="{}">
+		      <source src="videos/gorillacross.mp4" type='video/mp4'>
+		    </video>
+		    <video controls class="video-js item" preload="auto" width="600" height="264" data-setup="{}">
+		      <source src="videos/gorillathug.mp4" type='video/mp4'>
+		    </video>
+		    <video controls class="video-js item" preload="auto" width="600" height="264" data-setup="{}">
+		      <source src="videos/gorilladrag.mp4" type='video/mp4'>
+		    </video>
+		</div>
+  </div>
+    		 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24ryXUF0c.ohOWL1JSsgJb00"+"&opts=16862&num=10&ts=1474766822382");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+</body>
+</html>
